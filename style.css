@@ -1,68 +1,68 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: rgb(239, 150, 255);
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
+  background-color: rgb(239, 150, 255);
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2 {
-    margin-top: 4px;
+h1,
+h2 {
+  margin-top: 4px;
 }
 
 figcaption {
-    font-size: 0.9em;
-    font-style: italic;
-    opacity: 0.4;
+  font-size: 0.9em;
+  font-style: italic;
+  opacity: 0.4;
 }
 
 nav {
   background-color: rgb(239, 201, 255);
   font-size: 27px;
   padding: 10px;
-  display:flex;
-  justify-content:space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 nav div {
   padding: 12px;
-  background-color: rgb(239,150,255);
+  background-color: rgb(239, 150, 255);
   margin: 2px;
 }
 
 .images {
-  margin:0;
-  padding:0;
-  width:100%;
-  display:flex;
-  border:1px solid purple;
-  height:auto;
-  
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  border: 1px solid purple;
+  height: auto;
 }
 
 .images figure {
-  display:block;
-  height:auto;
-  max-width:100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .image img {
-  width:100%;
-  object-fit:cover;
-  height:10%;
-  max-width:10%;
+  width: 100%;
+  object-fit: cover;
+  height: 10%;
+  max-width: 10%;
 }
 
 img {
-    max-width:100%;
-    height:auto;
+  max-width: 100%;
+  height: auto;
 }
 
 header {
@@ -70,29 +70,47 @@ header {
   padding: 20px;
   font-size: 30px;
   font-style: italic;
-  background-size:cover;
-  background-position:center top;
-  text-align:center;
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
 }
 main {
   background-color: rgb(239, 201, 255);
-    padding: 20px;
-    color: rgb(22, 22, 66);
-    font-size: 1.1em;
+  padding: 20px;
+  color: rgb(22, 22, 66);
+  font-size: 1.1em;
 }
 
 section {
   background-color: rgb(239, 150, 255);
-    padding: 20px;
-    margin: 20px auto;
-    color: rgb(22, 22, 66);
-    font-size: 1.1em;
+  padding: 20px;
+  margin: 20px auto;
+  color: rgb(22, 22, 66);
+  font-size: 1.1em;
 }
 
 footer {
   background-color: rgb(239, 201, 255);
-    padding: 20px;
-    margin: 20px auto;
-    color: rgb(22, 22, 66);
-    font-size: 2em;
+  padding: 20px;
+  margin: 20px auto;
+  color: rgb(22, 22, 66);
+  font-size: 2em;
+}
+.navigatie {
+  overflow: hidden;
+  padding: 20px;
+}
+
+.nagivatie a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigatie a:hover {
+  background-color: rgb(234, 0, 255);
+  color: black;
 }
